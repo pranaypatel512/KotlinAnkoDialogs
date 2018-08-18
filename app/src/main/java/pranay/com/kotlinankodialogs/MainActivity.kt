@@ -69,6 +69,9 @@ class MainActivity : AppCompatActivity() {
 
         buttonProgressDialog.setOnClickListener {
             val dialog = progressDialog(message = "Please wait a bit…", title = "Click any where to cancel.")
+            dialog.max=100
+            dialog.incrementProgressBy(10)
+            dialog.show()
         }
         buttonProgressDialogSec.setOnClickListener {
             val dialog = indeterminateProgressDialog(message = "Please wait a bit…", title = "Click any where to cancel.")

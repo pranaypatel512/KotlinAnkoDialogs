@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">KotlinAnkoDialogs</string>
+    <string name="action_settings">Settings</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="show_alert">Show Alert</string>
+    <string name="show_yesno_alert">Show Yes/No Alert</string>
+    <string name="show_snackbar">Show SnackBar</string>
+    <string name="selection_dialog">Selection dialog</string>
+    <string name="progress_dialog">Progress Dialog</string>
+    <string name="alert_with_custom_view">Alert with custom view</string>
+    <string name="ste_enter_value_here">Enter value here</string>
+    <string name="open_activity">Open Activity</string>
+    <string name="this_is_second_activity">This is Second activity</string>
+</resources>
